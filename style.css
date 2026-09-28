@@ -1,0 +1,38 @@
+section.album{
+  background: #050D14;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 49px;
+}
+.swiper{
+  width: 100%;
+  height: 668px;
+}
+.swiper-slide{
+  width: 1184px;
+  height: 100%;
+  overflow: hidden;
+}
+.swiper-slide img{
+  width: 100%;
+  object-fit: cover;
+}
+ul.tab-container{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  color: #C8102E;
+  font-size: 36px;
+  font-weight: 800;
+}
+li.tab {
+  cursor: pointer;
+}
+.tab-active{
+  background: #C8102E;
+  color: #050D14;
+}
